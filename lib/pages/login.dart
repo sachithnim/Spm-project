@@ -32,7 +32,7 @@ class _LoginPageState extends State<LoginPage> {
 
     try {
       authenticated = await auth.authenticate(
-        localizedReason: 'Use fingerprint to login',
+        localizedReason: 'Use Fingerprint to login',
         options: const AuthenticationOptions(
           biometricOnly: true,
         ),
